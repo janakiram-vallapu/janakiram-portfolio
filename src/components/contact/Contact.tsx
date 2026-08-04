@@ -1,0 +1,64 @@
+export default function Contact() {
+  return (
+    <section id="contact" className="py-28">
+      <div className="mx-auto max-w-6xl px-6">
+
+        <p className="text-green-400 uppercase tracking-[8px] text-center">
+          CONTACT
+        </p>
+
+        <h2 className="mt-4 text-center text-5xl font-bold">
+          Let's Work Together
+        </h2>
+
+        <p className="mx-auto mt-6 max-w-2xl text-center text-slate-400">
+          I'm actively looking for Data Analyst opportunities, freelance
+          projects and collaborations.
+        </p>
+
+        <div className="mt-14 grid gap-6 md:grid-cols-3">
+
+          <a
+            href="mailto:janakiramvallapu@gmail.com"
+            className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
+          >
+            <h3 className="text-xl font-semibold">Email</h3>
+
+            <p className="mt-3 text-slate-400">
+              janakiramvallapu@gmail.com
+            </p>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/janakiramvallapu"
+            target="_blank"
+            className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
+          >
+            <h3 className="text-xl font-semibold">
+              LinkedIn
+            </h3>
+
+            <p className="mt-3 text-slate-400">
+              Connect with me
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+            className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
+          >
+            <h3 className="text-xl font-semibold">
+              GitHub
+            </h3>
+
+            <p className="mt-3 text-slate-400">
+              View my repositories
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+  );
+}
