@@ -1,5 +1,8 @@
+import AnimationWrapper from "../AnimationWrapper";
+
 export default function Contact() {
   return (
+    <AnimationWrapper>
     <section id="contact" className="py-28">
       <div className="mx-auto max-w-6xl px-6">
 
@@ -44,7 +47,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/janakiramvallapu"
             target="_blank"
             className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
           >
@@ -60,5 +63,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </AnimationWrapper>
   );
 }

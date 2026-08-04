@@ -46,7 +46,7 @@ export const projects: Project[] = [
     duration: "2 Weeks",
     records: "5,067",
 
-    github: "",
+    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
     liveDemo: "",
 
     image: "/projects/healthcare-analysis/dashboard.png",
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     duration: "2 Weeks",
     records: "6,000+",
 
-    github: "",
+    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
     liveDemo: "",
 
     image: "/projects/loan-approval-analysis/dashboard.png",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     duration: "2 Weeks",
     records: "1,470",
 
-    github: "",
+    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
     liveDemo: "",
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
