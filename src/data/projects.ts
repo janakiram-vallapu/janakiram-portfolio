@@ -74,7 +74,7 @@ export const projects: Project[] = [
     title: "Loan Approval Analysis",
     category: "Project",
     status: "Completed",
-    featured: false,
+    featured: true,
 
     description:
       "Analyzed loan application data to identify key factors influencing loan approval decisions using SQL, Python, and Power BI.",
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     title: "HR Attrition Analysis",
     category: "Project",
     status: "Completed",
-    featured: false,
+    featured: true,
 
     description:
       "Built an HR analytics solution to identify employee attrition trends and workforce risk factors using SQL, Excel, Python, and Power BI.",
