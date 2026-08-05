@@ -27,6 +27,12 @@ export type Project = {
   image?: string;
 
   featured?: boolean;
+
+  challenges: string[];
+
+  solution: string[];
+ 
+  businessImpact: string[];
 };
 
 export const projects: Project[] = [
@@ -67,6 +73,20 @@ export const projects: Project[] = [
       "Created BMI and obesity classifications for health-risk analysis.",
       "Built an interactive dashboard for business reporting.",
     ],
+    challenges: [
+  "Large healthcare datasets contained inconsistent and missing values.",
+  "Finding meaningful patient trends across multiple tables was challenging.",
+],
+
+solution: [
+  "Cleaned and standardized the datasets using SQL.",
+  "Built an interactive Power BI dashboard with KPIs and filters.",
+],
+
+businessImpact: [
+  "Enabled faster analysis of patient demographics and admission trends.",
+  "Provided interactive insights to support healthcare decision-making.",
+],
   },
 
   {
@@ -106,6 +126,20 @@ export const projects: Project[] = [
       "Loan amount and applicant profile affected approval probability.",
       "Dashboard enabled quick business decision-making.",
     ],
+    challenges: [
+  "Loan data contained missing values and inconsistent records.",
+  "Identifying approval patterns required combining multiple variables.",
+],
+
+solution: [
+  "Cleaned the dataset using Python and analyzed it with SQL.",
+  "Created an interactive Power BI dashboard for decision support.",
+],
+
+businessImpact: [
+  "Highlighted the factors influencing loan approvals.",
+  "Helped visualize applicant risk and approval trends.",
+],
   },
 
   {
@@ -145,5 +179,19 @@ export const projects: Project[] = [
       "Work-life balance and tenure significantly influenced retention.",
       "Dashboard highlighted high-risk employee segments.",
     ],
+    challenges: [
+  "Understanding the key reasons behind employee attrition.",
+  "Analyzing multiple HR factors affecting workforce retention.",
+],
+
+solution: [
+  "Performed SQL analysis and exploratory data analysis.",
+  "Built Power BI dashboards to monitor attrition metrics.",
+],
+
+businessImpact: [
+  "Identified major factors contributing to employee turnover.",
+  "Provided insights to improve employee retention strategies.",
+],
   },
 ];

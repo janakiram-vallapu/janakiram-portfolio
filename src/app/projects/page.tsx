@@ -1,6 +1,7 @@
 import { projects } from "@/data/projects";
 import ProjectCard from "@/components/projects/ProjectCard";
 
+
 export default function ProjectsPage() {
   return (
     <main className="mx-auto max-w-7xl px-6 py-28">
