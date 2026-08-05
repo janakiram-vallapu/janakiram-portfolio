@@ -33,7 +33,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/janakiramvallapu"
+            href="https://linkedin.com/in/janakiram-vallapu"
             target="_blank"
             className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
           >
@@ -47,7 +47,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://github.com/janakiramvallapu"
+            href="https://github.com/janakiram-vallapu"
             target="_blank"
             className="rounded-2xl border border-slate-800 p-8 transition hover:border-green-400 hover:-translate-y-1"
           >

@@ -1,5 +1,7 @@
+import AnimationWrapper from "@/components/AnimationWrapper";
 export default function About() {
   return (
+    <AnimationWrapper>
     <section
       id="about"
       className="mx-auto max-w-7xl px-6 py-28"
@@ -12,8 +14,8 @@ export default function About() {
           </p>
 
           <h2 className="text-5xl font-bold">
-            Passionate about solving
-            <span className="text-green-400"> business problems</span>
+            Passionate about solving{" "}
+            <span className="text-green-400">business problems</span>{" "}
             through data.
           </h2>
         </div>
@@ -39,5 +41,6 @@ export default function About() {
 
       </div>
     </section>
+    </AnimationWrapper>
   );
 }
