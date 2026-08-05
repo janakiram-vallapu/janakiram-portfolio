@@ -99,7 +99,7 @@ export default function Hero() {
 
           <div className="relative overflow-hidden rounded-[3rem] border border-green-400/20 bg-white/5 p-3 shadow-2xl">
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Janakiram Vallapu"
               width={480}
               height={600}
