@@ -35,11 +35,13 @@ export default function Hero() {
               sequence={[
                 "Data Analyst",
                 1500,
-                "SQL Developer",
+                "SQL",
                 1500,
-                "Power BI Developer",
+                "Power BI",
                 1500,
-                "Freelancer",
+                "Excel",
+                1500,
+                "Python",
                 1500,
               ]}
               speed={50}
