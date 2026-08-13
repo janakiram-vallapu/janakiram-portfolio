@@ -5,6 +5,7 @@ import {
   FileSpreadsheet,
   BrushCleaning,
   LineChart,
+  FileBarChart,
 } from "lucide-react";
 
 const services = [
@@ -33,6 +34,11 @@ const services = [
     icon: LineChart,
     description: "Professional charts and reports for decision making.",
   },
+  {
+    title: "Data Reporting",
+    icon: FileBarChart,
+    description: "Business-ready KPI reports and insights for decision-making.",
+  },
 ];
 
 export default function Services() {
@@ -47,9 +53,14 @@ export default function Services() {
           <h2 className="text-5xl font-bold">
             What I Can Help You With
           </h2>
+
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+            Available for freelance Excel, SQL, Power BI, data cleaning,
+            reporting, and analytics projects.
+          </p>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-5">
+        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => {
             const Icon = service.icon;
 
