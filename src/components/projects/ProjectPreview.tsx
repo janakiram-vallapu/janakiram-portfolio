@@ -50,31 +50,31 @@ export default function ProjectPreview({
   };
 
   return (
-    <section className="mt-20">
+    <section className="mt-14">
       <h2 className="text-3xl font-bold sm:text-4xl">
         Dashboard Gallery
       </h2>
 
-      <div className="mt-8">
+      <div className="mt-5">
         <p className="mb-4 text-center text-lg font-semibold text-slate-200">
           {currentImage.title}
         </p>
 
-        <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white">
-          <div className="relative aspect-[16/9] w-full">
-            <Image
-              src={currentImage.src}
-              alt={`${title} - ${currentImage.title}`}
-              fill
-              className="object-contain"
-              priority={currentIndex === 0}
-            />
-          </div>
-        </div>
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl border border-white/10 bg-white">
+  <div className="relative h-[420px] w-full sm:h-[460px] lg:h-[500px]">
+    <Image
+      src={currentImage.src}
+      alt={`${title} - ${currentImage.title}`}
+      fill
+      className="object-contain"
+      priority={currentIndex === 0}
+    />
+  </div>
+</div>
 
         {gallery.length > 1 && (
           <>
-            <div className="mt-6 flex items-center justify-between">
+            <div className="mx-auto mt-4 flex max-w-4xl items-center justify-between">
               <button
                 type="button"
                 onClick={previousImage}
