@@ -49,7 +49,7 @@ export const projects: Project[] = [
     tech: ["SQL", "Power BI", "DAX"],
 
     dataset: "Patients + Admissions + Doctors + Province Names",
-    records: "5,067",
+    records: "records: 5,067 Admissions",
 
     github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/SQL_Healthcare_Analysis",
     liveDemo: "",
@@ -65,21 +65,21 @@ export const projects: Project[] = [
       "Created KPIs and interactive visualizations in Power BI.",
       "Designed a dashboard to monitor patient trends and healthcare performance.",
     ],
-
     insights: [
-      "Identified patient demographic trends across multiple regions.",
-      "Analyzed hospital admission frequency and average length of stay.",
-      "Created BMI and obesity classifications for health-risk analysis.",
-      "Built an interactive dashboard for business reporting.",
+      "Analyzed patient demographic patterns across the healthcare dataset.",
+      "Evaluated doctor performance and workload across hospital operations.",
+      "Examined admission, discharge, diagnosis, and length-of-stay patterns.",
+      "Built a multi-page Power BI dashboard for executive healthcare reporting.",
     ],
-    challenges: [
-  "Large healthcare datasets contained inconsistent and missing values.",
-  "Finding meaningful patient trends across multiple tables was challenging.",
+challenges: [
+  "Integrating patient, admission, doctor, and province data for consistent analysis.",
+  "Converting multiple healthcare tables into meaningful operational and clinical insights.",
 ],
 
 solution: [
-  "Cleaned and standardized the datasets using SQL.",
-  "Built an interactive Power BI dashboard with KPIs and filters.",
+  "Prepared and analyzed the healthcare datasets using MySQL and SQL.",
+  "Used joins, subqueries, CTEs, window functions, and aggregations for business analysis.",
+  "Built a multi-page Power BI dashboard with DAX measures, KPIs, and interactive filters.",
 ],
 
 businessImpact: [
