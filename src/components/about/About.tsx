@@ -5,7 +5,7 @@ export default function About() {
     <AnimationWrapper>
       <section
         id="about"
-        className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-28"
+        className="mx-auto max-w-7xl px-6 py-28"
       >
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           <div>

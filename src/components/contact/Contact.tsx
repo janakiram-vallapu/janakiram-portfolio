@@ -3,7 +3,7 @@ import AnimationWrapper from "../AnimationWrapper";
 export default function Contact() {
   return (
     <AnimationWrapper>
-    <section id="contact" className="py-16 sm:py-20 lg:py-28">
+    <section id="contact" className="py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-6">
 
         <p className="text-green-400 uppercase tracking-[8px] text-center">

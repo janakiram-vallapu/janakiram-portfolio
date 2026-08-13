@@ -4,7 +4,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 
 export default function ProjectsPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-28">
+    <main className="mx-auto max-w-7xl px-6 ">
       <div className="mx-auto mb-16 max-w-3xl text-center">
         <p className="mb-3 uppercase tracking-[0.3em] text-green-400">
           Portfolio
