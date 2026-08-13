@@ -51,7 +51,7 @@ export const projects: Project[] = [
     dataset: "Patients + Admissions + Doctors + Province Names",
     records: "records: 5,067 Admissions",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/SQL_Healthcare_Analysis",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/SQL_Healthcare_Analysis",
     liveDemo: "",
 
     image: "/projects/healthcare-analysis/dashboard.png",
@@ -103,7 +103,7 @@ businessImpact: [
     dataset: "Loan Approval Dataset",
     records: "614",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Loan_Approval_Analysis",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Loan_Approval_Analysis",
     liveDemo: "",
 
     image: "/projects/loan-approval-analysis/dashboard.png",
@@ -155,7 +155,7 @@ businessImpact: [
     dataset: "HR Employee Dataset",
     records: "1,470",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/HR-Employee-Attrition-Project",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/HR-Employee-Attrition-Project",
     liveDemo: "",
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
@@ -207,7 +207,7 @@ businessImpact: [
   dataset: "Superstore Dataset",
   records: "9,994",
 
-  github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Excel_End_To_End_Project",
+  github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Excel_End_To_End_Project",
   liveDemo: "",
 
   image: "/projects/superstore-sales-analysis/dashboard.png",
@@ -259,7 +259,7 @@ businessImpact: [
   dataset: "Trading Data + Fear & Greed Index",
 
   github:
-    "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Primetrade_Project",
+    "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Primetrade_Project",
 
   liveDemo: "",
 
