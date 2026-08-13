@@ -60,10 +60,7 @@ export default async function ProjectPage({
       </div>
 
       {/* Dashboard Preview */}
-      <ProjectPreview
-        slug={project.slug}
-        title={project.title}
-      />
+      <ProjectPreview slug={project.slug} title={project.title} />
 
       {/* Project Overview */}
       <ProjectInfo
@@ -111,74 +108,76 @@ export default async function ProjectPage({
               className="flex gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-5"
             >
               <span className="text-xl text-green-400">✓</span>
-
               <p className="text-slate-300">{item}</p>
             </div>
           ))}
         </div>
       </section>
-{/* Challenges */}
-<section className="mt-16">
-  <h2 className="text-3xl font-bold">Challenges</h2>
 
-  <div className="mt-6 space-y-4">
-    {project.challenges.map((item) => (
-      <div
-        key={item}
-        className="rounded-xl border border-white/10 bg-white/[0.03] p-5 text-slate-300"
-      >
-        {item}
+      {/* Challenges */}
+      <section className="mt-16">
+        <h2 className="text-3xl font-bold">Challenges</h2>
+
+        <div className="mt-6 space-y-4">
+          {project.challenges.map((item) => (
+            <div
+              key={item}
+              className="rounded-xl border border-white/10 bg-white/[0.03] p-5 text-slate-300"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Solution */}
+      <section className="mt-16">
+        <h2 className="text-3xl font-bold">Solution</h2>
+
+        <div className="mt-6 space-y-4">
+          {project.solution.map((item) => (
+            <div
+              key={item}
+              className="rounded-xl border border-white/10 bg-white/[0.03] p-5 text-slate-300"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Business Impact */}
+      <section className="mt-16">
+        <h2 className="text-3xl font-bold">Business Impact</h2>
+
+        <div className="mt-6 space-y-4">
+          {project.businessImpact.map((item) => (
+            <div
+              key={item}
+              className="rounded-xl border border-green-500/20 bg-green-500/5 p-5 text-slate-300"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Bottom Navigation */}
+      <div className="mt-20 flex justify-between border-t border-white/10 pt-10">
+        <Link
+          href="/projects"
+          className="rounded-xl border border-white/10 px-6 py-3 transition hover:border-green-400 hover:text-green-400"
+        >
+          ← All Projects
+        </Link>
+
+        <Link
+          href="/#contact"
+          className="rounded-xl bg-green-500 px-6 py-3 font-semibold text-black transition hover:bg-green-400"
+        >
+          Hire Me →
+        </Link>
       </div>
-    ))}
-  </div>
-</section>
-
-{/* Solution */}
-<section className="mt-16">
-  <h2 className="text-3xl font-bold">Solution</h2>
-
-  <div className="mt-6 space-y-4">
-    {project.solution.map((item) => (
-      <div
-        key={item}
-        className="rounded-xl border border-white/10 bg-white/[0.03] p-5 text-slate-300"
-      >
-        {item}
-      </div>
-    ))}
-  </div>
-</section>
-
-{/* Business Impact */}
-<section className="mt-16">
-  <h2 className="text-3xl font-bold">Business Impact</h2>
-
-  <div className="mt-6 space-y-4">
-    {project.businessImpact.map((item) => (
-      <div
-        key={item}
-        className="rounded-xl border border-green-500/20 bg-green-500/5 p-5 text-slate-300"
-      >
-        {item}
-      </div>
-    ))}
-  </div>
-</section>
-<div className="mt-20 flex justify-between border-t border-white/10 pt-10">
-  <Link
-    href="/projects"
-    className="rounded-xl border border-white/10 px-6 py-3 transition hover:border-green-400 hover:text-green-400"
-  >
-    ← All Projects
-  </Link>
-
-  <Link
-    href="/#contact"
-    className="rounded-xl bg-green-500 px-6 py-3 font-semibold text-black transition hover:bg-green-400"
-  >
-    Hire Me →
-  </Link>
-</div>
     </main>
   );
 }

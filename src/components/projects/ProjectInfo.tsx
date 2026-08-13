@@ -26,10 +26,17 @@ export default function ProjectInfo({
       title: "Records",
       value: records ?? "N/A",
     },
-    {
-      title: "Duration",
-      value: duration ?? "N/A",
-    },
+
+    // Only show Duration when the project has a duration
+    ...(duration
+      ? [
+          {
+            title: "Duration",
+            value: duration,
+          },
+        ]
+      : []),
+
     {
       title: "Status",
       value: status,
@@ -42,7 +49,11 @@ export default function ProjectInfo({
         Project Overview
       </h2>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div
+        className={`grid gap-6 sm:grid-cols-2 ${
+          items.length === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"
+        }`}
+      >
         {items.map((item) => (
           <div
             key={item.title}
