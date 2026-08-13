@@ -54,7 +54,7 @@ export const projects: Project[] = [
     tech: ["SQL", "Power BI", "DAX"],
 
     dataset: "Patients + Admissions + Doctors + Province Names",
-    records: "records: 5,067 Admissions",
+    records: "5,067 Admissions",
 
     github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/SQL_Healthcare_Analysis",
     liveDemo: "",
@@ -165,27 +165,30 @@ businessImpact: [
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
 
-    images: [
-
+images: [
   {
-    src: "/projects/hr-attrition-analysis/demographics.png",
-    title: "Employee_Demographics",
+    src: "/projects/hr-attrition-analysis/dashboard.png",
+    title: "Executive Summary",
   },
   {
-    src: "/projects/hr-attrition-analysis/job-analysis.png",
-    title: "Job&Compensation_Analysis",
+    src: "/projects/hr-attrition-analysis/employee-demographics.png",
+    title: "Employee Demographics",
   },
   {
-    src: "/projects/hr-attrition-analysis/compensation.png",
-    title: "Employee_Experience_Drivers",
+    src: "/projects/hr-attrition-analysis/employee-experience-drivers.png",
+    title: "Employee Experience Drivers",
   },
   {
-    src: "/projects/hr-attrition-analysis/engagement.png",
-    title: "High_Risk_Employee_Segments",
+    src: "/projects/hr-attrition-analysis/job-compensation-analysis.png",
+    title: "Job & Compensation Analysis",
   },
   {
-    src: "/projects/hr-attrition-analysis/retention.png",
-    title: "Executive_Insights_Recommendations",
+    src: "/projects/hr-attrition-analysis/high-risk-employee-segments.png",
+    title: "High-Risk Employee Segments",
+  },
+  {
+    src: "/projects/hr-attrition-analysis/executive-insights-recommendations.png",
+    title: "Executive Insights & Recommendations",
   },
 ],
 

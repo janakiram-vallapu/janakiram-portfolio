@@ -112,7 +112,7 @@ export default function ProjectPreview({
                     src={image.src}
                     alt={image.title}
                     fill
-                    className="object-cover"
+                    className="object-contain bg-white"
                   />
                 </button>
               ))}
