@@ -48,8 +48,7 @@ export const projects: Project[] = [
 
     tech: ["SQL", "Power BI", "DAX"],
 
-    dataset: "Healthcare Dataset",
-    duration: "2 Weeks",
+    dataset: "Patients + Admissions + Doctors + Province Names",
     records: "5,067",
 
     github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/SQL_Healthcare_Analysis",
@@ -102,8 +101,7 @@ businessImpact: [
     tech: ["SQL", "Python", "Power BI"],
 
     dataset: "Loan Approval Dataset",
-    duration: "2 Weeks",
-    records: "6,000+",
+    records: "614",
 
     github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Loan_Approval_Analysis",
     liveDemo: "",
@@ -150,12 +148,11 @@ businessImpact: [
     featured: true,
 
     description:
-      "Built an HR analytics solution to identify employee attrition trends and workforce risk factors using SQL, Excel, Python, and Power BI.",
+      "Built an end-to-end HR analytics solution using Python, SQL, and Power BI to identify employee attrition trends and key workforce risk factors.",
 
-    tech: ["SQL", "Python", "Excel", "Power BI"],
+    tech: ["SQL", "Python", "Power BI"],
 
     dataset: "HR Employee Dataset",
-    duration: "2 Weeks",
     records: "1,470",
 
     github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/HR-Employee-Attrition-Project",
@@ -174,10 +171,10 @@ businessImpact: [
     ],
 
     insights: [
-      "Overtime showed a strong relationship with employee attrition.",
-      "Frequent business travel increased attrition risk.",
-      "Work-life balance and tenure significantly influenced retention.",
-      "Dashboard highlighted high-risk employee segments.",
+      "Employees aged 18–25 who worked overtime showed a high attrition risk.",
+      "Attrition varied significantly across departments, job roles, and compensation bands.",
+      "Work-life balance and engagement factors strongly influenced employee retention.",
+      "The dashboard helped identify high-risk workforce segments for retention analysis.",
     ],
     challenges: [
   "Understanding the key reasons behind employee attrition.",
@@ -208,10 +205,9 @@ businessImpact: [
   tech: ["Excel", "Power Query", "Pivot Tables"],
 
   dataset: "Superstore Dataset",
-  duration: "1 Week",
   records: "9,994",
 
-  github: "YOUR_GITHUB_REPO_LINK",
+  github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Excel_End_To_End_Project",
   liveDemo: "",
 
   image: "/projects/superstore-sales-analysis/dashboard.png",
