@@ -223,11 +223,11 @@ businessImpact: [
   ],
 
   insights: [
-    "Identified top-performing cities by sales.",
-    "Compared regional sales performance.",
-    "Analyzed sales by category and customer segment.",
-    "Tracked monthly quantity trends using interactive visualizations."
-  ],
+    "Analyzed 9,994 transactions generating total sales of 5,820,182.",
+    "The dashboard recorded an average sales value of 582.37 and total quantity of 25,123 units.",
+    "Compared sales and transaction performance across regions, cities, categories, and customer segments.",
+    "Tracked monthly quantity trends using interactive Year and Region slicers.",
+],
 
   challenges: [
     "Transforming raw sales data into an analysis-ready format.",

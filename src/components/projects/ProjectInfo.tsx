@@ -22,10 +22,14 @@ export default function ProjectInfo({
       title: "Dataset",
       value: dataset ?? "Coming Soon",
     },
-    {
-      title: "Records",
-      value: records ?? "N/A",
-    },
+    ...(records
+  ? [
+      {
+        title: "Records",
+        value: records,
+      },
+    ]
+  : []),
 
     // Only show Duration when the project has a duration
     ...(duration
@@ -50,11 +54,15 @@ export default function ProjectInfo({
       </h2>
 
       <div
-        className={`grid gap-6 sm:grid-cols-2 ${
-          items.length === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"
-        }`}
-      >
-        {items.map((item) => (
+  className={`grid gap-6 sm:grid-cols-2 ${
+    items.length === 4
+      ? "lg:grid-cols-4"
+      : items.length === 3
+        ? "lg:grid-cols-3"
+        : "lg:grid-cols-2"
+  }`}
+>
+  {items.map((item) => (
           <div
             key={item.title}
             className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:border-green-400"
