@@ -112,31 +112,31 @@ businessImpact: [
       "Financial institutions need to understand the factors affecting loan approvals to improve decision-making and reduce lending risks.",
 
     approach: [
-      "Cleaned missing and inconsistent values using Python.",
-      "Performed SQL analysis to identify approval trends.",
-      "Developed KPIs and Power BI visualizations.",
-      "Created an interactive dashboard for loan performance analysis.",
-    ],
+      "Cleaned and transformed missing and inconsistent values using Python and Pandas.",
+      "Performed SQL analysis to identify approval patterns across applicant and loan characteristics.",
+      "Built Power BI measures and KPIs for approval, rejection, income, loan amount, and credit-history analysis.",
+    "Designed an interactive Power BI dashboard with slicers and business-focused visualizations.",
+],
 
     insights: [
-      "Credit history was one of the strongest approval factors.",
-      "Income level significantly influenced approval rates.",
-      "Loan amount and applicant profile affected approval probability.",
-      "Dashboard enabled quick business decision-making.",
-    ],
+      "Overall loan approval rate was 68.7%, with 422 of 614 applications approved.",
+      "Applicants with a positive credit history had a 79.0% approval rate compared with 7.9% for applicants without one.",
+      "Semiurban applicants recorded the highest approval rate at approximately 76.6%, followed by Urban at 65.8% and Rural at 61.5%.",
+      "The dashboard enabled interactive comparison of approval outcomes across applicant demographics, credit history, income, and property area.",
+],
     challenges: [
-  "Loan data contained missing values and inconsistent records.",
-  "Identifying approval patterns required combining multiple variables.",
+      "Loan data contained missing values and inconsistent records.",
+  "   Identifying approval patterns required combining multiple variables.",
 ],
 
-solution: [
-  "Cleaned the dataset using Python and analyzed it with SQL.",
-  "Created an interactive Power BI dashboard for decision support.",
+    solution: [
+      "Cleaned the dataset using Python and analyzed it with SQL.",
+  "   Created an interactive Power BI dashboard for decision support.",
 ],
 
-businessImpact: [
-  "Highlighted the factors influencing loan approvals.",
-  "Helped visualize applicant risk and approval trends.",
+    businessImpact: [
+      "Highlighted the factors influencing loan approvals.",
+      "Helped visualize applicant risk and approval trends.",
 ],
   },
 
