@@ -144,7 +144,7 @@ businessImpact: [
 
   {
     slug: "hr-attrition-analysis",
-    title: "HR Attrition Analysis",
+    title: "Employee Attrition Analysis",
     category: "Project",
     status: "Completed",
     featured: true,
@@ -246,6 +246,61 @@ businessImpact: [
   businessImpact: [
     "Enabled quick monitoring of business performance.",
     "Helped stakeholders analyze sales trends and make data-driven decisions."
+  ],
+},
+{
+  slug: "trader-performance-vs-market-sentiment-report",
+  title: "Trader Performance vs Market Sentiment Report",
+  category: "Project",
+  status: "Completed",
+  featured: false,
+
+  description:
+    "Analyzed cryptocurrency trader performance against Fear & Greed market sentiment using Python and Power BI to identify profitability, trading activity, win-rate, and behavioral patterns.",
+
+  tech: ["Python", "Power BI", "Pandas"],
+
+  dataset: "Trading Data + Fear & Greed Index",
+
+  github:
+    "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Primetrade_Project",
+
+  liveDemo: "",
+
+  image:
+    "/projects/trader-performance-vs-market-sentiment-report/dashboard.png",
+
+  problem:
+    "The objective was to understand whether trader behavior and profitability change across different cryptocurrency market sentiment conditions such as Fear, Greed, Extreme Fear, and Extreme Greed.",
+
+  approach: [
+    "Cleaned and validated historical trading and market sentiment datasets using Python.",
+    "Aligned trading dates with the Crypto Fear & Greed Index.",
+    "Created performance metrics including Total PnL, Total Trades, Average Daily PnL, Average Trade Size, and Win Rate.",
+    "Analyzed trader behavior and performance across different market sentiment conditions.",
+    "Built an interactive Power BI dashboard for executive and trader-level analysis.",
+  ],
+
+  insights: [
+    "Fear sentiment generated the highest average daily PnL at approximately $5.3K.",
+    "Fear also recorded the highest trading activity at approximately 62K trades.",
+    "Extreme Greed produced the highest average win rate at approximately 65%.",
+    "Average trade size was highest during Fear conditions at approximately $9K.",
+  ],
+
+  challenges: [
+    "Combining trading activity with market sentiment data at the correct date level.",
+    "Creating meaningful trader-level and daily performance metrics from raw transaction data.",
+  ],
+
+  solution: [
+    "Used Python and Pandas to clean, transform, merge, and analyze the datasets.",
+    "Created an analysis-ready dataset and developed interactive Power BI dashboards for performance and behavioral analysis.",
+  ],
+
+  businessImpact: [
+    "Highlighted how market sentiment relates to profitability, trading activity, trade size, and win rate.",
+    "Provided trader-level and market-level insights that can support trading strategy evaluation and risk analysis.",
   ],
 },
 ];
