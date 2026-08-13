@@ -27,8 +27,8 @@ export type Project = {
   image?: string;
 
   images?: {
-  src: string;
-  title: string;
+    src: string;
+    title: string;
   }[];
 
   featured?: boolean;
@@ -36,7 +36,7 @@ export type Project = {
   challenges: string[];
 
   solution: string[];
- 
+
   businessImpact: string[];
 };
 
@@ -56,10 +56,35 @@ export const projects: Project[] = [
     dataset: "Patients + Admissions + Doctors + Province Names",
     records: "5,067 Admissions",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/SQL_Healthcare_Analysis",
+    github:
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/SQL_Healthcare_Analysis",
+
     liveDemo: "",
 
     image: "/projects/healthcare-analysis/dashboard.png",
+
+    images: [
+      {
+        src: "/projects/healthcare-analysis/dashboard.png",
+        title: "Executive Overview",
+      },
+      {
+        src: "/projects/healthcare-analysis/patient-analysis.png",
+        title: "Patient Analysis",
+      },
+      {
+        src: "/projects/healthcare-analysis/doctor-performance.png",
+        title: "Doctor Performance",
+      },
+      {
+        src: "/projects/healthcare-analysis/diagnosis-analysis.png",
+        title: "Diagnosis Analysis",
+      },
+      {
+        src: "/projects/healthcare-analysis/hospital-insights.png",
+        title: "Hospital Insights",
+      },
+    ],
 
     problem:
       "Healthcare organizations generate thousands of patient and admission records every day. The objective of this project was to analyze patient demographics, admission trends, diagnoses, and healthcare metrics to support better business decisions.",
@@ -70,27 +95,29 @@ export const projects: Project[] = [
       "Created KPIs and interactive visualizations in Power BI.",
       "Designed a dashboard to monitor patient trends and healthcare performance.",
     ],
+
     insights: [
       "Analyzed patient demographic patterns across the healthcare dataset.",
       "Evaluated doctor performance and workload across hospital operations.",
       "Examined admission, discharge, diagnosis, and length-of-stay patterns.",
       "Built a multi-page Power BI dashboard for executive healthcare reporting.",
     ],
-challenges: [
-  "Integrating patient, admission, doctor, and province data for consistent analysis.",
-  "Converting multiple healthcare tables into meaningful operational and clinical insights.",
-],
 
-solution: [
-  "Prepared and analyzed the healthcare datasets using MySQL and SQL.",
-  "Used joins, subqueries, CTEs, window functions, and aggregations for business analysis.",
-  "Built a multi-page Power BI dashboard with DAX measures, KPIs, and interactive filters.",
-],
+    challenges: [
+      "Integrating patient, admission, doctor, and province data for consistent analysis.",
+      "Converting multiple healthcare tables into meaningful operational and clinical insights.",
+    ],
 
-businessImpact: [
-  "Enabled faster analysis of patient demographics and admission trends.",
-  "Provided interactive insights to support healthcare decision-making.",
-],
+    solution: [
+      "Prepared and analyzed the healthcare datasets using MySQL and SQL.",
+      "Used joins, subqueries, CTEs, window functions, and aggregations for business analysis.",
+      "Built a multi-page Power BI dashboard with DAX measures, KPIs, and interactive filters.",
+    ],
+
+    businessImpact: [
+      "Enabled faster analysis of patient demographics and admission trends.",
+      "Provided interactive insights to support healthcare decision-making.",
+    ],
   },
 
   {
@@ -108,10 +135,31 @@ businessImpact: [
     dataset: "Loan Approval Dataset",
     records: "614",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Loan_Approval_Analysis",
+    github:
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Loan_Approval_Analysis",
+
     liveDemo: "",
 
     image: "/projects/loan-approval-analysis/dashboard.png",
+
+    images: [
+      {
+        src: "/projects/loan-approval-analysis/dashboard.png",
+        title: "Loan Approval Summary",
+      },
+      {
+        src: "/projects/loan-approval-analysis/applicant-demographics.png",
+        title: "Applicant Demographics",
+      },
+      {
+        src: "/projects/loan-approval-analysis/financial-analysis.png",
+        title: "Financial Analysis",
+      },
+      {
+        src: "/projects/loan-approval-analysis/key-approval-insights.png",
+        title: "Key Approval Insights",
+      },
+    ],
 
     problem:
       "Financial institutions need to understand the factors affecting loan approvals to improve decision-making and reduce lending risks.",
@@ -120,29 +168,30 @@ businessImpact: [
       "Cleaned and transformed missing and inconsistent values using Python and Pandas.",
       "Performed SQL analysis to identify approval patterns across applicant and loan characteristics.",
       "Built Power BI measures and KPIs for approval, rejection, income, loan amount, and credit-history analysis.",
-    "Designed an interactive Power BI dashboard with slicers and business-focused visualizations.",
-],
+      "Designed an interactive Power BI dashboard with slicers and business-focused visualizations.",
+    ],
 
     insights: [
       "Overall loan approval rate was 68.7%, with 422 of 614 applications approved.",
       "Applicants with a positive credit history had a 79.0% approval rate compared with 7.9% for applicants without one.",
       "Semiurban applicants recorded the highest approval rate at approximately 76.6%, followed by Urban at 65.8% and Rural at 61.5%.",
       "The dashboard enabled interactive comparison of approval outcomes across applicant demographics, credit history, income, and property area.",
-],
+    ],
+
     challenges: [
       "Loan data contained missing values and inconsistent records.",
-  "   Identifying approval patterns required combining multiple variables.",
-],
+      "Identifying approval patterns required combining multiple variables.",
+    ],
 
     solution: [
       "Cleaned the dataset using Python and analyzed it with SQL.",
-  "   Created an interactive Power BI dashboard for decision support.",
-],
+      "Created an interactive Power BI dashboard for decision support.",
+    ],
 
     businessImpact: [
       "Highlighted the factors influencing loan approvals.",
       "Helped visualize applicant risk and approval trends.",
-],
+    ],
   },
 
   {
@@ -160,37 +209,39 @@ businessImpact: [
     dataset: "HR Employee Dataset",
     records: "1,470",
 
-    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/HR-Employee-Attrition-Project",
+    github:
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/HR-Employee-Attrition-Project",
+
     liveDemo: "",
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
 
-images: [
-  {
-    src: "/projects/hr-attrition-analysis/dashboard.png",
-    title: "Executive Summary",
-  },
-  {
-    src: "/projects/hr-attrition-analysis/employee-demographics.png",
-    title: "Employee Demographics",
-  },
-  {
-    src: "/projects/hr-attrition-analysis/employee-experience-drivers.png",
-    title: "Employee Experience Drivers",
-  },
-  {
-    src: "/projects/hr-attrition-analysis/job-compensation-analysis.png",
-    title: "Job & Compensation Analysis",
-  },
-  {
-    src: "/projects/hr-attrition-analysis/high-risk-employee-segments.png",
-    title: "High-Risk Employee Segments",
-  },
-  {
-    src: "/projects/hr-attrition-analysis/executive-insights-recommendations.png",
-    title: "Executive Insights & Recommendations",
-  },
-],
+    images: [
+      {
+        src: "/projects/hr-attrition-analysis/dashboard.png",
+        title: "Executive Summary",
+      },
+      {
+        src: "/projects/hr-attrition-analysis/employee-demographics.png",
+        title: "Employee Demographics",
+      },
+      {
+        src: "/projects/hr-attrition-analysis/employee-experience-drivers.png",
+        title: "Employee Experience Drivers",
+      },
+      {
+        src: "/projects/hr-attrition-analysis/job-compensation-analysis.png",
+        title: "Job & Compensation Analysis",
+      },
+      {
+        src: "/projects/hr-attrition-analysis/high-risk-employee-segments.png",
+        title: "High-Risk Employee Segments",
+      },
+      {
+        src: "/projects/hr-attrition-analysis/executive-insights-recommendations.png",
+        title: "Executive Insights & Recommendations",
+      },
+    ],
 
     problem:
       "Organizations experience employee turnover that impacts productivity and costs. This project analyzed workforce data to understand the key reasons behind employee attrition.",
@@ -207,128 +258,143 @@ images: [
       "Employees working overtime had an attrition rate of approximately 30.5%, compared with about 10.5% for employees who did not work overtime.",
       "Sales recorded the highest department-level attrition rate at approximately 20.6%, followed by Human Resources at 19.1%.",
       "Employees aged 18–25 who worked overtime represented a particularly high-risk workforce segment.",
-],
+    ],
+
     challenges: [
-  "Understanding the key reasons behind employee attrition.",
-  "Analyzing multiple HR factors affecting workforce retention.",
-],
+      "Understanding the key reasons behind employee attrition.",
+      "Analyzing multiple HR factors affecting workforce retention.",
+    ],
 
-solution: [
-  "Performed SQL analysis and exploratory data analysis.",
-  "Built Power BI dashboards to monitor attrition metrics.",
-],
+    solution: [
+      "Performed SQL analysis and exploratory data analysis.",
+      "Built Power BI dashboards to monitor attrition metrics.",
+    ],
 
-businessImpact: [
-  "Identified major factors contributing to employee turnover.",
-  "Provided insights to improve employee retention strategies.",
-],
+    businessImpact: [
+      "Identified major factors contributing to employee turnover.",
+      "Provided insights to improve employee retention strategies.",
+    ],
   },
 
-{
-  slug: "superstore-sales-analysis",
-  title: "Superstore Sales Analysis",
-  category: "Project",
-  status: "Completed",
-  featured: true,
+  {
+    slug: "superstore-sales-analysis",
+    title: "Superstore Sales Analysis",
+    category: "Project",
+    status: "Completed",
+    featured: true,
 
-  description:
-    "Built an interactive Excel dashboard to analyze Superstore sales performance using Power Query, Pivot Tables, Pivot Charts, and Slicers.",
+    description:
+      "Built an interactive Excel dashboard to analyze Superstore sales performance using Power Query, Pivot Tables, Pivot Charts, and Slicers.",
 
-  tech: ["Excel", "Power Query", "Pivot Tables"],
+    tech: ["Excel", "Power Query", "Pivot Tables"],
 
-  dataset: "Superstore Dataset",
-  records: "9,994",
+    dataset: "Superstore Dataset",
+    records: "9,994",
 
-  github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Excel_End_To_End_Project",
-  liveDemo: "",
+    github:
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Excel_End_To_End_Project",
 
-  image: "/projects/superstore-sales-analysis/dashboard.png",
+    liveDemo: "",
 
-  problem:
-    "Businesses require an easy way to monitor sales performance across regions, categories, customers, and time periods. This project transforms raw sales data into an interactive dashboard for business reporting.",
+    image: "/projects/superstore-sales-analysis/dashboard.png",
 
-  approach: [
-    "Imported and cleaned the Superstore dataset using Power Query.",
-    "Created Pivot Tables and Pivot Charts for business analysis.",
-    "Built KPIs to monitor sales, transactions, quantity, and averages.",
-    "Designed an interactive Excel dashboard with Year and Region slicers."
-  ],
+    problem:
+      "Businesses require an easy way to monitor sales performance across regions, categories, customers, and time periods. This project transforms raw sales data into an interactive dashboard for business reporting.",
 
-  insights: [
-    "Analyzed 9,994 transactions generating total sales of 5,820,182.",
-    "The dashboard recorded an average sales value of 582.37 and total quantity of 25,123 units.",
-    "Compared sales and transaction performance across regions, cities, categories, and customer segments.",
-    "Tracked monthly quantity trends using interactive Year and Region slicers.",
-],
+    approach: [
+      "Imported and cleaned the Superstore dataset using Power Query.",
+      "Created Pivot Tables and Pivot Charts for business analysis.",
+      "Built KPIs to monitor sales, transactions, quantity, and averages.",
+      "Designed an interactive Excel dashboard with Year and Region slicers.",
+    ],
 
-  challenges: [
-    "Transforming raw sales data into an analysis-ready format.",
-    "Designing an interactive dashboard while keeping the layout simple."
-  ],
+    insights: [
+      "Analyzed 9,994 transactions generating total sales of 5,820,182.",
+      "The dashboard recorded an average sales value of 582.37 and total quantity of 25,123 units.",
+      "Compared sales and transaction performance across regions, cities, categories, and customer segments.",
+      "Tracked monthly quantity trends using interactive Year and Region slicers.",
+    ],
 
-  solution: [
-    "Used Power Query for data preparation.",
-    "Built Pivot Tables, Pivot Charts, KPIs, and Slicers to create a dynamic dashboard."
-  ],
+    challenges: [
+      "Transforming raw sales data into an analysis-ready format.",
+      "Designing an interactive dashboard while keeping the layout simple.",
+    ],
 
-  businessImpact: [
-    "Enabled quick monitoring of business performance.",
-    "Helped stakeholders analyze sales trends and make data-driven decisions."
-  ],
-},
-{
-  slug: "trader-performance-vs-market-sentiment-report",
-  title: "Trader Performance vs Market Sentiment Report",
-  category: "Project",
-  status: "Completed",
-  featured: false,
+    solution: [
+      "Used Power Query for data preparation.",
+      "Built Pivot Tables, Pivot Charts, KPIs, and Slicers to create a dynamic dashboard.",
+    ],
 
-  description:
-    "Analyzed cryptocurrency trader performance against Fear & Greed market sentiment using Python and Power BI to identify profitability, trading activity, win-rate, and behavioral patterns.",
+    businessImpact: [
+      "Enabled quick monitoring of business performance.",
+      "Helped stakeholders analyze sales trends and make data-driven decisions.",
+    ],
+  },
 
-  tech: ["Python", "Power BI", "Pandas"],
+  {
+    slug: "trader-performance-vs-market-sentiment-report",
+    title: "Trader Performance vs Market Sentiment Report",
+    category: "Project",
+    status: "Completed",
+    featured: false,
 
-  dataset: "Trading Data + Fear & Greed Index",
+    description:
+      "Analyzed cryptocurrency trader performance against Fear & Greed market sentiment using Python and Power BI to identify profitability, trading activity, win-rate, and behavioral patterns.",
 
-  github:
-    "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Primetrade_Project",
+    tech: ["Python", "Power BI", "Pandas"],
 
-  liveDemo: "",
+    dataset: "Trading Data + Fear & Greed Index",
 
-  image:
-    "/projects/trader-performance-vs-market-sentiment-report/dashboard.png",
+    github:
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Primetrade_Project",
 
-  problem:
-    "The objective was to understand whether trader behavior and profitability change across different cryptocurrency market sentiment conditions such as Fear, Greed, Extreme Fear, and Extreme Greed.",
+    liveDemo: "",
 
-  approach: [
-    "Cleaned and validated historical trading and market sentiment datasets using Python.",
-    "Aligned trading dates with the Crypto Fear & Greed Index.",
-    "Created performance metrics including Total PnL, Total Trades, Average Daily PnL, Average Trade Size, and Win Rate.",
-    "Analyzed trader behavior and performance across different market sentiment conditions.",
-    "Built an interactive Power BI dashboard for executive and trader-level analysis.",
-  ],
+    image:
+      "/projects/trader-performance-vs-market-sentiment-report/dashboard.png",
 
-  insights: [
-    "Fear sentiment generated the highest average daily PnL at approximately $5.3K.",
-    "Fear also recorded the highest trading activity at approximately 62K trades.",
-    "Extreme Greed produced the highest average win rate at approximately 65%.",
-    "Average trade size was highest during Fear conditions at approximately $9K.",
-  ],
+    images: [
+      {
+        src: "/projects/trader-performance-vs-market-sentiment-report/dashboard.png",
+        title: "Performance & Market Sentiment Overview",
+      },
+      {
+        src: "/projects/trader-performance-vs-market-sentiment-report/trade-behaviour-and-sentiments.png",
+        title: "Trade Behaviour & Market Sentiment",
+      },
+    ],
 
-  challenges: [
-    "Combining trading activity with market sentiment data at the correct date level.",
-    "Creating meaningful trader-level and daily performance metrics from raw transaction data.",
-  ],
+    problem:
+      "The objective was to understand whether trader behavior and profitability change across different cryptocurrency market sentiment conditions such as Fear, Greed, Extreme Fear, and Extreme Greed.",
 
-  solution: [
-    "Used Python and Pandas to clean, transform, merge, and analyze the datasets.",
-    "Created an analysis-ready dataset and developed interactive Power BI dashboards for performance and behavioral analysis.",
-  ],
+    approach: [
+      "Cleaned and validated historical trading and market sentiment datasets using Python.",
+      "Aligned trading dates with the Crypto Fear & Greed Index.",
+      "Created performance metrics including Total PnL, Total Trades, Average Daily PnL, Average Trade Size, and Win Rate.",
+      "Analyzed trader behavior and performance across different market sentiment conditions.",
+      "Built an interactive Power BI dashboard for executive and trader-level analysis.",
+    ],
 
-  businessImpact: [
-    "Highlighted how market sentiment relates to profitability, trading activity, trade size, and win rate.",
-    "Provided trader-level and market-level insights that can support trading strategy evaluation and risk analysis.",
-  ],
-},
+    insights: [
+      "Fear sentiment generated the highest average daily PnL at approximately $5.3K.",
+      "Fear also recorded the highest trading activity at approximately 62K trades.",
+      "Extreme Greed produced the highest average win rate at approximately 65%.",
+      "Average trade size was highest during Fear conditions at approximately $9K.",
+    ],
+
+    challenges: [
+      "Combining trading activity with market sentiment data at the correct date level.",
+      "Creating meaningful trader-level and daily performance metrics from raw transaction data.",
+    ],
+
+    solution: [
+      "Used Python and Pandas to clean, transform, merge, and analyze the datasets.",
+      "Created an analysis-ready dataset and developed interactive Power BI dashboards for performance and behavioral analysis.",
+    ],
+
+    businessImpact: [
+      "Highlighted how market sentiment relates to profitability, trading activity, trade size, and win rate.",
+      "Provided trader-level and market-level insights that can support trading strategy evaluation and risk analysis.",
+    ],
+  },
 ];
