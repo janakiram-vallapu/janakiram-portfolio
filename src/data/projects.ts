@@ -26,6 +26,11 @@ export type Project = {
 
   image?: string;
 
+  images?: {
+  src: string;
+  title: string;
+  }[];
+
   featured?: boolean;
 
   challenges: string[];
@@ -159,6 +164,30 @@ businessImpact: [
     liveDemo: "",
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
+
+    images: [
+
+  {
+    src: "/projects/hr-attrition-analysis/demographics.png",
+    title: "Employee_Demographics",
+  },
+  {
+    src: "/projects/hr-attrition-analysis/job-analysis.png",
+    title: "Job&Compensation_Analysis",
+  },
+  {
+    src: "/projects/hr-attrition-analysis/compensation.png",
+    title: "Employee_Experience_Drivers",
+  },
+  {
+    src: "/projects/hr-attrition-analysis/engagement.png",
+    title: "High_Risk_Employee_Segments",
+  },
+  {
+    src: "/projects/hr-attrition-analysis/retention.png",
+    title: "Executive_Insights_Recommendations",
+  },
+],
 
     problem:
       "Organizations experience employee turnover that impacts productivity and costs. This project analyzed workforce data to understand the key reasons behind employee attrition.",

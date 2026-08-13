@@ -60,7 +60,11 @@ export default async function ProjectPage({
       </div>
 
       {/* Dashboard Preview */}
-      <ProjectPreview slug={project.slug} title={project.title} />
+      <ProjectPreview
+  title={project.title}
+  images={project.images}
+  fallbackImage={project.image}
+/>
 
       {/* Project Overview */}
       <ProjectInfo
