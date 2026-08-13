@@ -11,16 +11,8 @@ export default function Experience() {
       type: "Education",
     },
     {
-      title: "Open to Full-Time Opportunities",
-      company: "Data Analyst • Business Analyst • Power BI Developer",
-      period: "Present",
-      description:
-        "Actively seeking full-time opportunities where I can apply SQL, Power BI, Excel, and Python to solve business problems and deliver data-driven insights.",
-      type: "Open to Work",
-    },
-    {
       title: "Freelance Data Analyst",
-      company: "Fiverr & Independent Clients",
+      company: "Fiverr & Freelance Projects",
       period: "2026 – Present",
       description:
         "Providing Excel automation, data cleaning, dashboard development, Power BI reporting, SQL analysis, and data visualization solutions for clients.",
@@ -35,7 +27,7 @@ export default function Experience() {
         className="mx-auto max-w-7xl px-6 py-24"
       >
         <p className="mb-3 text-center uppercase tracking-[0.3em] text-green-400">
-          BACKGROUND
+          Background
         </p>
 
         <h2 className="mb-16 text-center text-5xl font-bold">
