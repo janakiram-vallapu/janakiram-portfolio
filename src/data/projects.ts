@@ -52,7 +52,7 @@ export const projects: Project[] = [
     duration: "2 Weeks",
     records: "5,067",
 
-    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/SQL_Healthcare_Analysis",
     liveDemo: "",
 
     image: "/projects/healthcare-analysis/dashboard.png",
@@ -105,7 +105,7 @@ businessImpact: [
     duration: "2 Weeks",
     records: "6,000+",
 
-    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/Loan_Approval_Analysis",
     liveDemo: "",
 
     image: "/projects/loan-approval-analysis/dashboard.png",
@@ -158,7 +158,7 @@ businessImpact: [
     duration: "2 Weeks",
     records: "1,470",
 
-    github: "https://github.com/janakiram-vallapu/janakiram-portfolio",
+    github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/43099097d5d28a6bbbcf2f92964f69881f7933c9/PROJECTS/HR-Employee-Attrition-Project",
     liveDemo: "",
 
     image: "/projects/hr-attrition-analysis/dashboard.png",
@@ -194,4 +194,58 @@ businessImpact: [
   "Provided insights to improve employee retention strategies.",
 ],
   },
+
+{
+  slug: "superstore-sales-analysis",
+  title: "Superstore Sales Analysis",
+  category: "Project",
+  status: "Completed",
+  featured: false,
+
+  description:
+    "Built an interactive Excel dashboard to analyze Superstore sales performance using Power Query, Pivot Tables, Pivot Charts, and Slicers.",
+
+  tech: ["Excel", "Power Query", "Pivot Tables"],
+
+  dataset: "Superstore Dataset",
+  duration: "1 Week",
+  records: "9,994",
+
+  github: "YOUR_GITHUB_REPO_LINK",
+  liveDemo: "",
+
+  image: "/projects/superstore-sales-analysis/dashboard.png",
+
+  problem:
+    "Businesses require an easy way to monitor sales performance across regions, categories, customers, and time periods. This project transforms raw sales data into an interactive dashboard for business reporting.",
+
+  approach: [
+    "Imported and cleaned the Superstore dataset using Power Query.",
+    "Created Pivot Tables and Pivot Charts for business analysis.",
+    "Built KPIs to monitor sales, transactions, quantity, and averages.",
+    "Designed an interactive Excel dashboard with Year and Region slicers."
+  ],
+
+  insights: [
+    "Identified top-performing cities by sales.",
+    "Compared regional sales performance.",
+    "Analyzed sales by category and customer segment.",
+    "Tracked monthly quantity trends using interactive visualizations."
+  ],
+
+  challenges: [
+    "Transforming raw sales data into an analysis-ready format.",
+    "Designing an interactive dashboard while keeping the layout simple."
+  ],
+
+  solution: [
+    "Used Power Query for data preparation.",
+    "Built Pivot Tables, Pivot Charts, KPIs, and Slicers to create a dynamic dashboard."
+  ],
+
+  businessImpact: [
+    "Enabled quick monitoring of business performance.",
+    "Helped stakeholders analyze sales trends and make data-driven decisions."
+  ],
+},
 ];
