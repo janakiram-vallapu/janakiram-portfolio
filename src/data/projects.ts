@@ -57,7 +57,7 @@ export const projects: Project[] = [
     records: "5,067 Admissions",
 
     github:
-      "https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/SQL_Healthcare_Analysis",
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Healthcare_Analysis",
 
     liveDemo: "",
 
@@ -136,7 +136,7 @@ export const projects: Project[] = [
     records: "614",
 
     github:
-      "https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/Loan_Approval_Analysis",
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Loan_Approval_Analysis",
 
     liveDemo: "",
 
@@ -210,7 +210,7 @@ export const projects: Project[] = [
     records: "1,470",
 
     github:
-      "https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/HR-https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/Employee_Attrition_Analysis",
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Employee_Attrition_Analysis",
 
     liveDemo: "",
 
@@ -292,7 +292,7 @@ export const projects: Project[] = [
     records: "9,994",
 
     github:
-      "https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/Superstore_Sales_Analysis",
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Superstore_Sales_Analysis",
 
     liveDemo: "",
 
@@ -346,7 +346,7 @@ export const projects: Project[] = [
     dataset: "Trading Data + Fear & Greed Index",
 
     github:
-      "https://github.com/janakiram-vallapu/Data_Analytics_Portfolio/tree/main/PROJECTS/Primetrade_Project",
+      "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/Primetrade_Project",
 
     liveDemo: "",
 
