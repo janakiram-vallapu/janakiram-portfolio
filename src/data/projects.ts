@@ -171,11 +171,11 @@ businessImpact: [
     ],
 
     insights: [
-      "Employees aged 18–25 who worked overtime showed a high attrition risk.",
-      "Attrition varied significantly across departments, job roles, and compensation bands.",
-      "Work-life balance and engagement factors strongly influenced employee retention.",
-      "The dashboard helped identify high-risk workforce segments for retention analysis.",
-    ],
+      "Overall employee attrition was 16.12%, with 237 of 1,470 employees leaving the organization.",
+      "Employees working overtime had an attrition rate of approximately 30.5%, compared with about 10.5% for employees who did not work overtime.",
+      "Sales recorded the highest department-level attrition rate at approximately 20.6%, followed by Human Resources at 19.1%.",
+      "Employees aged 18–25 who worked overtime represented a particularly high-risk workforce segment.",
+],
     challenges: [
   "Understanding the key reasons behind employee attrition.",
   "Analyzing multiple HR factors affecting workforce retention.",
