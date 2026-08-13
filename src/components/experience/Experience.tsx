@@ -24,17 +24,17 @@ export default function Experience() {
     <AnimationWrapper>
       <section
         id="experience"
-        className="mx-auto max-w-7xl px-6 py-24"
+        className="mx-auto max-w-7xl px-6 py-14 sm:py-20 lg:py-24"
       >
         <p className="mb-3 text-center uppercase tracking-[0.3em] text-green-400">
           Background
         </p>
 
-        <h2 className="mb-16 text-center text-5xl font-bold">
+        <h2 className="mb-10 text-center text-4xl font-bold sm:mb-16 sm:text-5xl">
           Education & Experience
         </h2>
 
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           {experiences.map((item) => (
             <div
               key={item.title}
