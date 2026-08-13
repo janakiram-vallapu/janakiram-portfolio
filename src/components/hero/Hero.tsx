@@ -75,7 +75,7 @@ export default function Hero() {
 
           <div className="mt-12 grid max-w-xl grid-cols-3 gap-4">
             {[
-              ["3+", "Projects"],
+              ["5", "Projects"],
               ["5+", "Core Skills"],
               ["2025", "Graduate"],
             ].map(([value, label]) => (
