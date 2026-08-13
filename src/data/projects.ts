@@ -197,7 +197,7 @@ businessImpact: [
   title: "Superstore Sales Analysis",
   category: "Project",
   status: "Completed",
-  featured: false,
+  featured: true,
 
   description:
     "Built an interactive Excel dashboard to analyze Superstore sales performance using Power Query, Pivot Tables, Pivot Charts, and Slicers.",
