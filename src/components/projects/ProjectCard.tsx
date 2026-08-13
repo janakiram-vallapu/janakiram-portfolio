@@ -12,12 +12,12 @@ export default function ProjectCard({
     <article className="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] transition duration-300 hover:-translate-y-2 hover:border-green-400 hover:shadow-2xl hover:shadow-green-500/10">
 
       {/* Project Image */}
-      <div className="relative h-56 overflow-hidden">
+      <div className="relative h-56 overflow-hidden bg-white">
         <Image
           src={project.image || "/projects/placeholder.png"}
           alt={project.title}
           fill
-          className="object-cover transition duration-500 group-hover:scale-105"
+          className="object-contain"
         />
       </div>
 
