@@ -24,7 +24,7 @@ export default function Experience() {
     <AnimationWrapper>
       <section
         id="experience"
-        className="mx-auto max-w-7xl px-6 py-14 sm:py-20 lg:py-24"
+        className="mx-auto max-w-7xl px-6 py-14 sm:py-20 lg:py-20"
       >
         <p className="mb-3 text-center uppercase tracking-[0.3em] text-green-400">
           Background

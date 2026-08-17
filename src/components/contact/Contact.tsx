@@ -5,7 +5,7 @@ export default function Contact() {
     <AnimationWrapper>
       <section
         id="contact"
-        className="py-16 sm:py-20 lg:py-28"
+        className="py-16 sm:py-20 lg:py-20"
       >
         <div className="mx-auto max-w-6xl px-6">
           <p className="text-center uppercase tracking-[8px] text-green-400">

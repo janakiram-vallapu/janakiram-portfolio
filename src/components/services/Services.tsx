@@ -44,7 +44,7 @@ const services = [
 export default function Services() {
   return (
     <AnimationWrapper>
-      <section className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-28">
+      <section className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-20">
         <div className="text-center">
           <p className="mb-3 uppercase tracking-[0.3em] text-green-400">
             Services

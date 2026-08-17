@@ -75,7 +75,7 @@ export default function Hero() {
 
           <div className="mt-12 grid max-w-xl grid-cols-3 gap-4">
             {[
-              ["5", "Projects"],
+              ["6", "Projects"],
               ["5+", "Core Skills"],
               ["2025", "Graduate"],
             ].map(([value, label]) => (
@@ -91,25 +91,25 @@ export default function Hero() {
         </motion.div>
 
         {/* Profile image */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="relative mx-auto"
-        >
-          <div className="absolute inset-0 rounded-[3rem] bg-green-500/20 blur-3xl" />
+<motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.7, delay: 0.15 }}
+  className="relative mx-auto"
+>
+  <div className="absolute inset-0 rounded-[2.5rem] bg-green-500/20 blur-3xl" />
 
-          <div className="relative overflow-hidden rounded-[3rem] border border-green-400/20 bg-white/5 p-3 shadow-2xl">
-            <Image
-              src="/profile.png"
-              alt="Janakiram Vallapu"
-              width={480}
-              height={600}
-              priority
-              className="h-[500px] w-[400px] rounded-[2.5rem] object-cover object-top"
-            />
-          </div>
-        </motion.div>
+  <div className="relative overflow-hidden rounded-[2.5rem] border border-green-400/20 bg-white/5 p-2.5 shadow-2xl">
+    <Image
+      src="/profile.png"
+      alt="Janakiram Vallapu"
+      width={360}
+      height={450}
+      priority
+      className="h-[360px] w-[290px] rounded-[2rem] object-cover object-top sm:h-[390px] sm:w-[315px]"
+    />
+  </div>
+</motion.div>
       </div>
     </section>
   );

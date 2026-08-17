@@ -7,6 +7,8 @@ import Services from "@/components/services/Services";
 import Skills from "@/components/skills/Skills";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/layout/Footer";
+import Certifications from "@/components/certifications/Certifications";
+import ResumeSection from "@/components/resume/ResumeSection";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <FeaturedProjects />
       <Services />
       <Skills />
+      <Certifications />
+      <ResumeSection />
       <Contact />
       <Footer />
     </>

@@ -31,7 +31,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-28"
+      className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-20"
     >
       <p className="text-center uppercase tracking-[8px] text-green-400">
         Skills
