@@ -95,19 +95,21 @@ export default function Hero() {
   initial={{ opacity: 0, scale: 0.9 }}
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.7, delay: 0.15 }}
-  className="relative mx-auto"
+  className="relative mx-auto -translate-y-28"
 >
-  <div className="absolute inset-0 rounded-[2.5rem] bg-green-500/20 blur-3xl" />
+  <div className="absolute inset-0 rounded-full bg-green-400/20 blur-3xl" />
 
-  <div className="relative overflow-hidden rounded-[2.5rem] border border-green-400/20 bg-white/5 p-2.5 shadow-2xl">
-    <Image
-      src="/profile.png"
-      alt="Janakiram Vallapu"
-      width={360}
-      height={450}
-      priority
-      className="h-[360px] w-[290px] rounded-[2rem] object-cover object-top sm:h-[390px] sm:w-[315px]"
-    />
+  <div className="relative rounded-full bg-gradient-to-br from-green-400 via-emerald-400 to-cyan-400 p-[5px] shadow-2xl">
+    <div className="rounded-full bg-[#07130e] p-2">
+      <Image
+        src="/profile.png"
+        alt="Janakiram Vallapu"
+        width={360}
+        height={360}
+        priority
+        className="h-[300px] w-[300px] rounded-full object-cover object-top sm:h-[330px] sm:w-[330px]"
+      />
+    </div>
   </div>
 </motion.div>
       </div>
