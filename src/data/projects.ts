@@ -56,7 +56,7 @@ export const projects: Project[] = [
 
   dataset: "Fictional Business Demo Data",
 
-  github: "YOUR_SMARTBIZ_GITHUB_LINK",
+  github: "https://github.com/janakiram-vallapu/data-analytics-portfolio/tree/main/PROJECTS/SmartBiz_Pro",
   liveDemo: "",
 
   image: "/projects/smartbiz-pro/home.png",
