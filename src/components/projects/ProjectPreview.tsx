@@ -60,14 +60,13 @@ export default function ProjectPreview({
           {currentImage.title}
         </p>
 
-        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl border border-white/10 bg-white">
-  <div className="relative h-[420px] w-full sm:h-[460px] lg:h-[500px]">
+  <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-white">
+  <div className="relative h-[260px] w-full sm:h-[320px] lg:h-[360px]">
     <Image
       src={currentImage.src}
-      alt={`${title} - ${currentImage.title}`}
+      alt={currentImage.title}
       fill
       className="object-contain"
-      priority={currentIndex === 0}
     />
   </div>
 </div>

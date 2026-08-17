@@ -10,14 +10,14 @@ export default function FeaturedProjects() {
     <AnimationWrapper>
       <section
         id="projects"
-        className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-28"
+        className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-28"
       >
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <p className="mb-3 uppercase tracking-[0.3em] text-green-400">
             Portfolio
           </p>
 
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-4xl font-bold sm:text-5xl">
             Featured Projects
           </h2>
 
@@ -28,7 +28,7 @@ export default function FeaturedProjects() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {featuredProjects.map((project) => (
             <ProjectCard
               key={project.slug}
