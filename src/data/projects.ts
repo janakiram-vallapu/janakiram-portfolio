@@ -41,12 +41,96 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+
+  {
+  slug: "smartbiz-pro-excel-vba-automation",
+  title: "SmartBiz Pro — Excel VBA Business Automation System",
+  category: "Project",
+  status: "Completed",
+  featured: true,
+
+  description:
+    "Built a macro-enabled Excel VBA business automation system for sales, purchases, inventory, customers, suppliers, invoicing, dashboards, and operational reporting.",
+
+  tech: ["Excel", "VBA", "UserForms", "PivotTables"],
+
+  dataset: "Fictional Business Demo Data",
+
+  github: "YOUR_SMARTBIZ_GITHUB_LINK",
+  liveDemo: "",
+
+  image: "/projects/smartbiz-pro/home.png",
+
+  images: [
+    {
+      src: "/projects/smartbiz-pro/home.png",
+      title: "SmartBiz Pro Home",
+    },
+    {
+      src: "/projects/smartbiz-pro/dashboard.png",
+      title: "Business Dashboard",
+    },
+    {
+      src: "/projects/smartbiz-pro/sales-form.png",
+      title: "Sales Entry Form",
+    },
+    {
+      src: "/projects/smartbiz-pro/inventory.png",
+      title: "Inventory Management",
+    },
+    {
+      src: "/projects/smartbiz-pro/Invoice.jpg",
+      title: "Generated Invoice",
+    },
+  ],
+
+  problem:
+    "Small businesses often manage sales, purchases, customers, suppliers, stock, invoices, and reporting through separate or manual Excel processes. SmartBiz Pro was built to combine these workflows into one macro-enabled Excel application.",
+
+  approach: [
+    "Built VBA UserForms for products, customers, suppliers, purchases, and sales.",
+    "Implemented automatic record IDs, invoice numbers, multi-item sales transactions, discounts, tax calculations, and grand totals.",
+    "Automated inventory increases after purchases and stock reductions after sales.",
+    "Created low-stock and out-of-stock monitoring using formulas and conditional formatting.",
+    "Developed invoice generation from selected sales records with one-page PDF export.",
+    "Built KPI dashboards, PivotTables, PivotCharts, reporting tools, and an in-workbook User Guide.",
+  ],
+
+  insights: [
+    "Purchases automatically increase stock while completed sales automatically reduce inventory.",
+    "Multiple products can be processed under a single sales invoice with automatic financial calculations.",
+    "Inventory status is classified into In Stock, Low Stock, and Out of Stock for operational monitoring.",
+    "The dashboard centralizes sales, purchases, customers, inventory value, invoice activity, and stock alerts.",
+  ],
+
+  challenges: [
+    "Coordinating multiple business workflows inside a single Excel workbook.",
+    "Maintaining accurate inventory levels after both purchase and sales transactions.",
+    "Combining multiple sales rows into a single formatted customer invoice.",
+    "Designing the system to remain practical and easy to use while adding advanced VBA automation.",
+  ],
+
+  solution: [
+    "Used VBA modules and UserForms to automate business data-entry workflows.",
+    "Connected Excel Tables, structured formulas, PivotTables, PivotCharts, and conditional formatting.",
+    "Implemented automatic invoice creation and one-page PDF export.",
+    "Added centralized refresh controls for formulas, inventory, PivotTables, charts, and dashboard KPIs.",
+  ],
+
+  businessImpact: [
+    "Centralizes major small-business operations inside one Excel-based application.",
+    "Reduces repetitive manual work across sales, purchases, inventory, invoicing, and reporting.",
+    "Improves visibility into stock status and operational KPIs.",
+    "Demonstrates practical Excel automation skills suitable for freelance business solutions and MIS-style reporting workflows.",
+  ],
+},
+
   {
     slug: "healthcare-analysis",
     title: "Healthcare Analysis",
     category: "Project",
     status: "Completed",
-    featured: true,
+    featured: false,
 
     description:
       "Designed an end-to-end healthcare analytics solution using SQL and Power BI to uncover patient trends, admission patterns, and operational insights.",
@@ -281,7 +365,7 @@ export const projects: Project[] = [
     title: "Superstore Sales Analysis",
     category: "Project",
     status: "Completed",
-    featured: true,
+    featured: false,
 
     description:
       "Built an interactive Excel dashboard to analyze Superstore sales performance using Power Query, Pivot Tables, Pivot Charts, and Slicers.",
@@ -398,86 +482,5 @@ export const projects: Project[] = [
     ],
   },
 
-  {
-  slug: "smartbiz-pro-excel-vba-automation",
-  title: "SmartBiz Pro — Excel VBA Business Automation System",
-  category: "Project",
-  status: "Completed",
-  featured: true,
-
-  description:
-    "Built a macro-enabled Excel VBA business automation system for sales, purchases, inventory, customers, suppliers, invoicing, dashboards, and operational reporting.",
-
-  tech: ["Excel", "VBA", "UserForms", "PivotTables"],
-
-  dataset: "Fictional Business Demo Data",
-
-  github: "YOUR_SMARTBIZ_GITHUB_LINK",
-  liveDemo: "",
-
-  image: "/projects/smartbiz-pro/home.png",
-
-  images: [
-    {
-      src: "/projects/smartbiz-pro/home.png",
-      title: "SmartBiz Pro Home",
-    },
-    {
-      src: "/projects/smartbiz-pro/dashboard.png",
-      title: "Business Dashboard",
-    },
-    {
-      src: "/projects/smartbiz-pro/sales-form.png",
-      title: "Sales Entry Form",
-    },
-    {
-      src: "/projects/smartbiz-pro/inventory.png",
-      title: "Inventory Management",
-    },
-    {
-      src: "/projects/smartbiz-pro/Invoice.jpg",
-      title: "Generated Invoice",
-    },
-  ],
-
-  problem:
-    "Small businesses often manage sales, purchases, customers, suppliers, stock, invoices, and reporting through separate or manual Excel processes. SmartBiz Pro was built to combine these workflows into one macro-enabled Excel application.",
-
-  approach: [
-    "Built VBA UserForms for products, customers, suppliers, purchases, and sales.",
-    "Implemented automatic record IDs, invoice numbers, multi-item sales transactions, discounts, tax calculations, and grand totals.",
-    "Automated inventory increases after purchases and stock reductions after sales.",
-    "Created low-stock and out-of-stock monitoring using formulas and conditional formatting.",
-    "Developed invoice generation from selected sales records with one-page PDF export.",
-    "Built KPI dashboards, PivotTables, PivotCharts, reporting tools, and an in-workbook User Guide.",
-  ],
-
-  insights: [
-    "Purchases automatically increase stock while completed sales automatically reduce inventory.",
-    "Multiple products can be processed under a single sales invoice with automatic financial calculations.",
-    "Inventory status is classified into In Stock, Low Stock, and Out of Stock for operational monitoring.",
-    "The dashboard centralizes sales, purchases, customers, inventory value, invoice activity, and stock alerts.",
-  ],
-
-  challenges: [
-    "Coordinating multiple business workflows inside a single Excel workbook.",
-    "Maintaining accurate inventory levels after both purchase and sales transactions.",
-    "Combining multiple sales rows into a single formatted customer invoice.",
-    "Designing the system to remain practical and easy to use while adding advanced VBA automation.",
-  ],
-
-  solution: [
-    "Used VBA modules and UserForms to automate business data-entry workflows.",
-    "Connected Excel Tables, structured formulas, PivotTables, PivotCharts, and conditional formatting.",
-    "Implemented automatic invoice creation and one-page PDF export.",
-    "Added centralized refresh controls for formulas, inventory, PivotTables, charts, and dashboard KPIs.",
-  ],
-
-  businessImpact: [
-    "Centralizes major small-business operations inside one Excel-based application.",
-    "Reduces repetitive manual work across sales, purchases, inventory, invoicing, and reporting.",
-    "Improves visibility into stock status and operational KPIs.",
-    "Demonstrates practical Excel automation skills suitable for freelance business solutions and MIS-style reporting workflows.",
-  ],
-},
+  
 ];
