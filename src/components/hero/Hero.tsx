@@ -95,7 +95,7 @@ export default function Hero() {
   initial={{ opacity: 0, scale: 0.9 }}
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.7, delay: 0.15 }}
-  className="relative mx-auto -translate-y-28"
+  className="relative mx-auto -translate-y-6"
 >
   <div className="absolute inset-0 rounded-full bg-green-400/20 blur-3xl" />
 
